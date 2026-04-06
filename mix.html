@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="mix.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-items w-100">
+            <p class="mx-auto">HOME</p>
+            <p class="mx-auto">BLOG</p>
+            <p class="mx-auto">NEWS</p>
+            <p class="mx-auto">LIVE</p>
+
+        </div>
+    </nav>
+
+    <main>
+
+        <header class="container-fluid">
+            <div class="row vh-100">
+                <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h1 class="text-center">BLOG DI EMA</h1>
+                </div>
+            </div>
+        </header>
+
+        <section class="container-fluid">
+            <div class="row sec1">
+                <article class="col-12 col-lg-4 d-flex flex-column align-items-center justify-content-between">
+                    <h3 class="text-center">Mostra Contatti in rubrica</h3>
+                    <button class="btn btn-cst mt-4" id="show_contacts">Mostra Contatti</button>
+                </article>
+                <article class="col-12 col-lg-4 d-flex flex-column  align-items-center justify-content-between my-5 my-lg-0">
+                    <h3 class="text-center">Aggiungi contatti</h3>
+
+                        <label class="form" for="">
+                            <p class="text-white mb-0">Nome</p>
+                            <input type="text" class="inputNome" placeholder="Name">
+                            <p class="text-white mb-0">Numero</p>
+                            <input type="tel" name="" id="" class="inputNumero" placeholder="Cell.">
+                        </label>
+                        
+                        <button class="add btn-cst mt-3">Aggiungi contatto</button>
+
+
+                </article>
+                <article class="col-12 col-lg-4 d-flex flex-column align-items-center justify-content-between">
+                    <h3 class="text-center">Modifica Contatto</h3>
+                            <p class="text-white mb-0">Nome contatto da modificare</p>
+                            <input type="text" class="inputNomeEx" placeholder="Name">
+                            <p class="text-white mb-3 my-3 ">Modifiche</p>
+                            <p class="text-white mb-0">Nuovo nome</p>
+                            <input type="text" class="inputNomeMod" placeholder="New name">
+                            <p class="text-white mb-0">Nuovo numero</p>
+                            <input type="text" class="inputNumeroMod" placeholder="New Cell. number"> <br>
+                            <button class="edit btn-cst mt-4">Modifica contatto</button>
+
+
+                </article>
+                
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row justify-content-center mt-5">
+                <article class="col-12 d-none" id="contactWrapper">
+                    <!-- <div class="card-cst px-3" >
+                        <p class="mb-0 text-light">NOME</p>
+                        <p class="text-light mb-0">333333333</p>
+                        <i class="fa-solid fa-trash-can fa-2x icon"></i>
+                    </div> -->
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/58ae64b951.js" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <script src="mix.js"></script>
+</body>
+</html>

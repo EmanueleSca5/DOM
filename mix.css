@@ -1,0 +1,64 @@
+:root{
+    --bk: black;
+    --rd: rgb(88, 3, 3);
+    --wh: rgb(221, 221, 221);
+}
+
+body{
+    background-color: var(--rd);
+}
+
+h1, h2, h3{
+    color: var(--wh);
+}
+
+.navbar{
+    background-color: var(--bk);
+}
+
+.nav-items{
+    display: flex;
+    color: var(--wh);
+    font-weight: 600;
+    filter: drop-shadow(2px 2px 3px red);
+}
+
+.btn-cst{
+    padding: 10px 20px;
+    color: var(--wh);
+    font-weight: 600;
+    background-color: transparent;
+    border: solid 3px var(--wh);
+    border-radius: 15px;
+}
+
+.btn-cst:hover{
+    background-color: var(--wh);
+    color: var(--rd);
+}
+
+.card-cst{
+    box-shadow: 2px 2px 6px var(--wh), -2px -2px 6px var(--wh);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin: 30px 0px;
+}
+
+.icon{
+    color: var(--wh);
+    cursor: pointer;
+}
+
+.form{
+    padding: 6px;
+  
+}
+
+input{
+    border-radius: 10px;
+}
