@@ -26,7 +26,7 @@ const rubrica = {
         {contact_name : "lucia", phone_number : 3555555555},
 
     ],
-
+            // PER COMPILARE I CAMPI CORRETTAMENTE HO IMPOSTATO L OBBLIGO DI INSERIRE ALMENO 10 CIFRE
     add_contacts : function(){
         add.addEventListener("click", ()=>{
             let contatto = {contact_name : inputNome.value , phone_number : inputNumero.value}
