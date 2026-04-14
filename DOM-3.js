@@ -5,15 +5,19 @@ let riprendi = document.querySelector(".riprendi")
 let reset = document.querySelector(".reset")
 let input = document.querySelector("#inp")
 
-let valore = input.value
+let numero = Number(prompt("Scegli un numero"))
+
+input.value = numero
+
+valore = input.value
 console.log(valore);
 
 
 
    let interval = ""
 
+   let counter = input.value
 function createInterval(){
-    let counter = input.value
      interval = setInterval(()=>{
 
         if(counter <= valore && counter > 0){
@@ -59,7 +63,7 @@ pausa.addEventListener("click", ()=>{
 riprendi.addEventListener("click", ()=>{
     clearInterval(interval)
 
-    if(input.value != valore){
+    if(input.value != numero){
 
         createInterval()
     }
