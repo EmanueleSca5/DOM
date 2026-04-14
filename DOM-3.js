@@ -43,6 +43,7 @@ riavvia.addEventListener("click", ()=>{
             input.style.fontSize = "100px"
     
     input.value = valore
+    counter = valore
     createInterval()
 })
 
